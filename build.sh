@@ -51,11 +51,13 @@ build() {
     echo "created $ar_name.zip."
 }
 
-build windows 386
+#build windows 386
 build windows amd64
-build linux 386
+#build linux 386
 build linux amd64
-build darwin 386
-build darwin amd64
+#build darwin 386
+#build darwin amd64
+build linux arm
+build linux arm64
 
 echo -e "\nAll done."

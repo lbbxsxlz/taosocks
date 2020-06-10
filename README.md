@@ -1,4 +1,14 @@
 # taosocks
+修改项：
+1、 支持arm arm64架构
+
+2、依赖于 gopkg.in/yaml.v3， 默认的GOPROXY可能存在下载失败
+故编译时需要更改GOPROXY，go env -w GOPROXY=https://goproxy.cn,direct
+
+3、common 自定义包路径跟目前仓库一致
+
+4、golang 编译器版本更新
+
 
 A smart tunnel proxy that helps you bypass firewalls.
 

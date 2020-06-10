@@ -9,7 +9,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/movsb/taosocks/common"
+	"github.com/lbbxsxlz/taosocks/common"
 )
 
 type xConfig struct {

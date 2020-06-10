@@ -1,5 +1,5 @@
-module github.com/movsb/taosocks
+module github.com/lbbxsxlz/taosocks
 
-go 1.12
+go 1.14
 
 require gopkg.in/yaml.v3 v3.0.0-20190905181640-827449938966

@@ -10,6 +10,8 @@
 
 4、golang 编译器版本更新
 
+5、更新mod管理
+
 使用示例：
 
 server端    ./server --listen 0.0.0.0:10098 --key lbbxsxlz

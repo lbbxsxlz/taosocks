@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/lbbxsxlz/taosocks/common"
+	"taosocks/common"
 )
 
 var gVersion = "taosocks/20200610"

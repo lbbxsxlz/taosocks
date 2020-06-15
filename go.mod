@@ -1,4 +1,4 @@
-module github.com/lbbxsxlz/taosocks
+module taosocks
 
 go 1.14
 

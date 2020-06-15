@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lbbxsxlz/taosocks/common"
+	"taosocks/common"
 )
 
 // Relayer exposes the interfaces for

@@ -1,5 +1,5 @@
 # taosocks
-修改项：
+*修改项:*
 1、 支持arm arm64架构
 
 2、依赖于 gopkg.in/yaml.v3， 默认的GOPROXY可能存在下载失败
@@ -10,6 +10,7 @@
 4、golang 编译器版本更新
 
 使用示例：
+
 server端    ./server --listen 0.0.0.0:10098 --key lbbxsxlz
 
 client端    client.exe --insecure --server 172.31.1.102:10098 --listen 127.0.0.1:9999 --key lbbxsxlz

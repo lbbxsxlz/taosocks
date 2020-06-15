@@ -12,7 +12,7 @@ import (
 	"github.com/lbbxsxlz/taosocks/common"
 )
 
-var gVersion = "taosocks/20190722"
+var gVersion = "taosocks/20200610"
 var gForward = "https://example.com"
 var gListen string
 var gKey string

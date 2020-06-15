@@ -109,7 +109,7 @@ func (r *LocalRelayer) Relay() *RelayResult {
 	}
 }
 
-const gVersion string = "taosocks/20190722"
+const gVersion string = "taosocks/20200610"
 
 var (
 	// ErrCannotDialRemoteServer is

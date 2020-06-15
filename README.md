@@ -9,6 +9,11 @@
 
 4、golang 编译器版本更新
 
+使用示例：
+server端    ./server --listen 0.0.0.0:10098 --key lbbxsxlz
+
+client端    client.exe --insecure --server 172.31.1.102:10098 --listen 127.0.0.1:9999 --key lbbxsxlz
+
 
 A smart tunnel proxy that helps you bypass firewalls.
 
